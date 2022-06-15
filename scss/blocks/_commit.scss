@@ -1,0 +1,135 @@
+.commit {
+    margin-top: 170px;
+
+    &__container {
+    }
+
+    &__inner-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 125px;
+        
+    }
+
+    &__left {
+    }
+
+    &__left-img {
+        max-width: 445px;
+        
+    }
+
+    &__right {
+        max-width: 540px;
+    }
+
+    &__right-heading {
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+    }
+
+    &__right-txt {
+        height: 350px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .commit {
+        margin-top: 170px;
+    
+        &__container {
+        }
+    
+        &__inner-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 70px;
+            
+        }
+    
+        &__left {
+        }
+    
+        &__left-img {
+            max-width: 280px;
+        }
+    
+        &__right {
+            max-width: 540px;
+        }
+    
+        &__right-heading {
+            font-size: 32px;
+            line-height: 48px;
+            color: #333D4B;
+        }
+    
+        &__right-txt {
+            font-size: 15px;
+            line-height: 26px;
+            color: #333D4B;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+    
+    
+}
+
+@media only screen and (max-width: 750px) {
+    .commit {
+        margin-top: 170px;
+    
+        &__container {
+        }
+    
+        &__inner-wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 70px;
+            
+        }
+    
+        &__left {
+            
+        }
+    
+        &__left-img {
+            max-width: 320px;
+            height: 400px;
+        }
+    
+        &__right {
+            max-width: 540px;
+        }
+    
+        &__right-heading {
+            text-align: center;
+            font-size: 32px;
+            line-height: 48px;
+            color: #333D4B;
+        }
+    
+        &__right-txt {
+            max-width: 280px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 26px;
+            color: #333D4B;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+    
+    
+}

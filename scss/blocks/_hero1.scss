@@ -1,0 +1,105 @@
+
+.hero1 {
+
+    &__container {
+        background-image: url(../../images/about-hero-bcg.jpg);
+        max-width: 1280px;
+        background-position: center;
+        height: 450px;
+    }
+
+    &__inner-wrap {
+    }
+
+    &__data-wrap {
+        max-width: 445px;
+        padding-top: 135px;
+        margin-left: 85px;
+    }
+
+    &__heading {
+        margin-bottom: 25px;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+
+    &__txt {
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hero1 {
+
+        &__container {
+            background-image: url(../../images/about-hero-bcg.jpg);
+            max-width: 1280px;
+            background-position: center;
+            height: 400px;
+        }
+    
+        &__inner-wrap {
+        }
+    
+        &__data-wrap {
+            max-width: 400px;
+            padding-top: 120px;
+            margin-left: 60px;
+        }
+    
+        &__heading {
+            font-size: 32px;
+            line-height: 40px;
+            color: #FEFCF7;
+        }
+    
+        &__txt {
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero1 {
+
+        &__container {
+            background-image: url(../../images/about-hero-bcg.jpg);
+            max-width: 1280px;
+            background-position: center;
+            height: 450px;
+        }
+
+    
+        &__data-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+            padding-top: 110px;
+            margin-left: 24px;
+        }
+    
+        &__heading {
+            text-align: center;
+            font-size: 28px;
+            line-height: 28px;
+            color: #FEFCF7;
+            margin-bottom: 25px;
+        }
+    
+        &__txt {
+            text-align: center;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+        }
+    }
+
+    
+}
+
